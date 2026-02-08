@@ -45,5 +45,5 @@ pub fn decode_list_strings_failure_test() {
   let assert Ok(lazily_decoding) =
     gleebor.decode_list(cbor_list, with: gleebor.decode_string)
   let assert Ok(first_decoded) = yielder.first(lazily_decoding)
-  assert first_decoded == Error(gleebor.InvalidMajorArg(0))
+  assert first_decoded == Error(gleebor.IncorrectType(major_type: 0))
 }

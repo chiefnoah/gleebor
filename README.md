@@ -52,23 +52,23 @@ gleam shell # Run an Erlang shell
 The following describes the current status for this library's progress.
 
 
-- [ ] Decode
+- [x] Decode
   - [x] Ints
-  - [ ] Floats
+  - [x] Floats
   - [x] Text Strings (Sized)
   - [x] Bytes (sized)
   - [x] Arrays (sized)
-  - [ ] Maps
-  - [ ] Tags
-  - [ ] Indefinite sequences
-- [ ] Encode
-  - [ ] Ints
-  - [ ] Floats
-  - [ ] Text Strings (Sized)
-  - [ ] Bytes (sized)
-  - [ ] Arrays (sized)
-  - [ ] Maps
-  - [ ] Tags
-  - [ ] Indefinite sequences
+  - [x] Maps
+  - [x] Tags
+  - [x] Indefinite sequences
+- [x] Encode
+  - [x] Ints
+  - [x] Floats
+  - [x] Text Strings (Sized)
+  - [x] Bytes (sized)
+  - [x] Arrays (sized)
+  - [x] Maps
+  - [x] Tags
+  - [x] Indefinite sequences
 
 
